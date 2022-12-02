@@ -19,5 +19,10 @@
 2. Aceptar los terminos del servicio (Terms of Service.)
 3. Tener el proyecto a desplegar en un repositorio puseado en una rama de github
 4. Crear un nuevo proyecto para desplegar desde un repositorio en Github
-5. Damos permisos para la rama y repo donde este la aplicación a desplegar 
+5. Damos permisos para la rama y repo donde esté la aplicación a desplegar 
+6. Añadimos las variables de entorno (MONGO_URI=MONGO_URI_VALUE)
+7. Configuramos Comandos de START, POLITICA DE REINICIO CUANDO SE CAIGA, ENDPOINT HEALCHECK (/PING)
+8. Exponer el servicio en un dominio generado por la plataforma  movies.up.railway.app↗
+9. Comprobar logs
+10. Comprobar que el servicio está funcionando en la url pública https://movies.up.railway.app/genres
 
